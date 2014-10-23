@@ -197,6 +197,7 @@ em {
 }
 #main {
   padding: 30px 0 0;
+  margin:auto;
 }
 
 /*-------------------------------------------*
@@ -251,16 +252,20 @@ h4 a {
   width: 100%;
   position: relative;
   border-bottom: 1px solid #EEE;
+  margin-top:25px;
 }
 
 #logo{
   float: left;
   padding: 20px 15px 20px 0px;
+  margin-top:-45px;
+  margin-bottom:-27px;
 }
 
 #sitename {
   float: left;
   padding: 20px 0;
+  display:none;
 }
 
 #sitename h2,
@@ -294,6 +299,7 @@ h4 a {
   top: 0px;
   right: 0px;
   font-size: 1em;
+  margin-top:30px;
 }
 
 #navigation a {
@@ -665,11 +671,12 @@ body.sidebar-first #post-content {
 .node {
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #EEE;
+ 
 }
 
 #post-content h1 {
   margin-bottom: 0px;
+  display:none;
 }
 
 .page-title {
@@ -681,6 +688,7 @@ body.sidebar-first #post-content {
   font-size: 11px;
   margin-bottom: 20px;
 }
+
 
 /*-------------------------------------------*
 /*Sidebar
@@ -702,18 +710,23 @@ body.sidebar-first #post-content {
   font-weight: bold;
 }
 
+
+
 /*-------------------------------------------*
 /*Copyright
 /*-------------------------------------------*/
 #copyright {
-  border-top: 1px solid #EEE;
+
   padding-top: 18px;
   margin-top:10px;
   font-size: 12px;
+  text-align:center;
+  
 }
 
 .credits {
   float: right;
+  display:none;
 }
 
 /*************************/
@@ -832,16 +845,22 @@ input.form-checkbox, input.form-radio {
 .item-list ul {
   margin: 0;
   padding: 0 0 0 1.5385em;
+  display:none;
 }
+
+#first-time {display:none;} 
 
 .item-list ul li {
   margin: 0;
   padding: 0;
+
 }
 
+  
 ul.menu li {
   margin: 0;
   padding: 0;
+
 }
 
 ul.inline {
@@ -852,6 +871,7 @@ ul.inline li {
   margin: 0;
   padding: 0;
 }
+
 
 /*-------------------------------------------*
 /* Admin Tabs
@@ -956,7 +976,24 @@ ul.secondary a.active {
 }
 
 #main .field-items .field-item{
+  
 }
+.panel-3col-33-stacked .panel-col-first {
+  height:304px!important;
+  border-right:1px solid #7C1C25;
+  width:350px!important;
+  
+  }
+  
+.panel-3col-33-stacked .panel-col {
+  border-right:1px solid #7C1C25;
+  margin-top:4px;
+  height:300px;
+  width:350px!important;
+  }
+  
+.panel-3col-33-stacked .panel-col-last {
+  width:140px!important;
 
 /*-------------------------------------------*
 /* Profile

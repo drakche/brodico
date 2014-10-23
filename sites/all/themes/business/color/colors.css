@@ -25,7 +25,7 @@ body { background-color:#eeeeee; }
 
 /* Link */
 
-a { color: #2e70b1; }
+.more-link a { color: #000;}
 
 a:hover { color: #b81008; }
 
