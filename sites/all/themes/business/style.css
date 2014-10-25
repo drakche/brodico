@@ -994,6 +994,7 @@ ul.secondary a.active {
   
 .panel-3col-33-stacked .panel-col-last {
   width:140px!important;
+}
 
 /*-------------------------------------------*
 /* Profile
@@ -1145,4 +1146,8 @@ h3.comment-title a{
 
 #forum .name a{ 
   font-size: 16px;
+}
+
+.image-inline{
+    display: inline;
 }
